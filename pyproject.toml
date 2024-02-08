@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "telegrambot"
+version = "0.1.0"
+description = "Personal telegram bot"
+authors = ["Ivan Ishchenko <lvan.lshchenko19.01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.3.0"
+openai = "^1.10.0"
+translate = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
